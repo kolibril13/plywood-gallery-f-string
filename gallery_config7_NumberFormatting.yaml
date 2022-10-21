@@ -1,0 +1,12 @@
+project_name: Plywood Gallery - Number Formatting
+repository_url: https://github.com/kolibril13/plywood-gallery-f-string
+user_content_version: 3.9.12 (Python, f-String)
+description: |
+  Cheat sheet gallery for f-strings
+favicon: icon.png
+preview_image: https://kolibril13.github.io/plywood-gallery-f-string/preview_image.png
+gallery_parameters_path: gallery_assets_7_NumberFormatting/gallery_parameters.json
+
+
+
+

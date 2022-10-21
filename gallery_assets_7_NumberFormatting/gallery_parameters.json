@@ -1,0 +1,142 @@
+{
+  "Number Formatting": [
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_001_Header.png",
+      "celltype": "Header",
+      "css": "border: 3px solid #ED6A5A;width: 380px; height: auto; display:block",
+      "code": "n = 7\npi = 3.14159"
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_002_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{n}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_003_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{n:0>2}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_004_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{n:03}\" # &#39;03&#39; is shortcut for &#39;0>3&#39;"
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_005_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{n:04}\" "
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_006_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{n:*>5}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_007_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{n:*^5}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_008_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{n:*<5}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_009_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{7:.1e}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_010_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{7:.1E}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_011_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{7:.2E}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_012_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{pi:.1f}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_013_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{pi:.2f}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_014_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{pi:.3f}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_015_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{0.4:8.2f}    Aligment at decimal separator\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_016_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{4:8.2f}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_017_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{400:8.2f}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_018_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{40000:8.2f}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_019_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{40000:,.2f}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_020_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{40000:_.2f}\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_021_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\"{40000:_.2f}\".replace(&#39;_&#39;, &#39; &#39;)"
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_022_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\" {&#39;Alignment after long line&#39;:<33}202\""
+    },
+    {
+      "image_path": "gallery_assets_7_NumberFormatting/Number_Formatting_023_Normal.png",
+      "celltype": "Normal",
+      "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
+      "code": "t = f\" {&#39;Hi, short line&#39;:<33}202\""
+    }
+  ]
+}
