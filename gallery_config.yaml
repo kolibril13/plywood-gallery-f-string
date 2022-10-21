@@ -5,7 +5,7 @@ description: |
   Cheat sheet gallery for f-strings
 favicon: icon.png
 preview_image: https://kolibril13.github.io/plywood-gallery-f-string/preview_image.png
-gallery_parameters_path: gallery_assets_7_NumberFormatting/gallery_parameters.json
+gallery_parameters_path: gallery_assets/gallery_parameters.json
 
 
 
