@@ -1,6 +1,6 @@
 {
   "plywood_metadata": {
-    "plywood_gallery_core_version": "0.0.9"
+    "plywood_gallery_core_version": "0.0.12"
   },
   "plywood_content": {
     "Number Formatting": [
@@ -26,7 +26,7 @@
         "image_path": "gallery_assets/Number_Formatting_004_Normal.png",
         "celltype": "Normal",
         "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
-        "code": "t = f\"{n:03}\" # &#39;03&#39; is shortcut for &#39;0>3&#39;"
+        "code": "t = f\"{n:03}\" # '03' is shortcut for '0>3'"
       },
       {
         "image_path": "gallery_assets/Number_Formatting_005_Normal.png",
@@ -128,19 +128,19 @@
         "image_path": "gallery_assets/Number_Formatting_021_Normal.png",
         "celltype": "Normal",
         "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
-        "code": "t = f\"{40000:_.2f}\".replace(&#39;_&#39;, &#39; &#39;)"
+        "code": "t = f\"{40000:_.2f}\".replace('_', ' ')"
       },
       {
         "image_path": "gallery_assets/Number_Formatting_022_Normal.png",
         "celltype": "Normal",
         "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
-        "code": "t = f\" {&#39;Alignment after long line&#39;:<33}202\""
+        "code": "t = f\" {'Alignment after long line':<33}202\""
       },
       {
         "image_path": "gallery_assets/Number_Formatting_023_Normal.png",
         "celltype": "Normal",
         "css": "border: 3px solid #007AB8;width: 380px; height: auto; display:block",
-        "code": "t = f\" {&#39;Hi, short line&#39;:<33}202\""
+        "code": "t = f\" {'Hi, short line':<33}202\""
       }
     ]
   }
